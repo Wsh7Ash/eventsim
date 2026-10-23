@@ -10,7 +10,7 @@ console = Console()
 def main(): pass
 
 @main.command()
-@click.option('--lambda', type=float, default=0.5)
+@click.option('--lambda', 'lambd', type=float, default=0.5)
 @click.option('--mu', type=float, default=1.0)
 @click.option('--time', type=float, default=1000)
 def mm1(lambd, mu, time):

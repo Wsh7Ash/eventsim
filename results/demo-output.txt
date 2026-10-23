@@ -1,0 +1,4 @@
+$ PYTHONPATH=src python3 -m eventsim.cli mm1 --lambda 0.5 --mu 1.0 --time 1000
+Utilization: 0.470
+Avg wait: 1.062
+[exit 0]
